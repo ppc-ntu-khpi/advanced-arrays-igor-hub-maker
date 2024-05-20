@@ -5,7 +5,7 @@
 
 ## Код: 
 Метод який виконує завдання
-```
+````java
 public static int GetSecondBiggestFromMatrix(int[][] matrix) {
     int[] nums = Arrays.stream(matrix)
             .flatMapToInt(Arrays::stream)
@@ -14,6 +14,6 @@ public static int GetSecondBiggestFromMatrix(int[][] matrix) {
             .toArray();
     return nums[nums.length - 2];
 }
-```
+````
 
 Весь інший код знаходиться в теці [src](/src/)
